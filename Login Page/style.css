@@ -18,7 +18,7 @@
 h1 {
    
     padding-top: 200px;
-    color: teal;
+    color: tan;
     font-size: 40px;
 }
 .para{
@@ -28,8 +28,8 @@ h1 {
 }
 .copy{
     padding-bottom: 0;
-    color: tomato;
-    margin-top: 25%;
+    color: white;
+    margin-top: 35%;
 }
 .section2{
     width: 50vw;
@@ -49,32 +49,40 @@ h1 {
 .para1{
     margin-top: 2%;
 }
-input[type="text"],[type="password"]{
+input[type="text"],
+input[type="password"]{
     border: none;
     margin-top: 5%;
     width: 250px;
-    height: 30px;
-    
-    
+    height: 30px; 
 }
-input[type="text"],[type="password"]:focus{
+input::placeholder{
+    color: gray;
+}
+input[type="text"],
+input[type="password"]{
+    border-bottom: 2px solid;
+    border-color: gray;
+}
+input[type="text"]:focus,
+input[type="password"]:focus{
     color: lightslategray;
     outline: none;
-    text-decoration: underline;
-    box-shadow: 5px 5px 5px 5px gray;
-    border-color: #007bff;
+    border-bottom: 2px solid ;
+    border-color: black;
+    
 }
-input[type="submit"]{
+button{
     margin-top: 5%; 
     width: 250px;
-    height: 30px;
+    height: 40px;
     background-color: black;
     color: white;
     border-radius: 5px;
     cursor: pointer;
 }
 .click{
-    margin-top: 3%;
+    margin-top: 4%;
     color: black;
     cursor: pointer;
 }
