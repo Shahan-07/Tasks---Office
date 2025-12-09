@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    width: 100%;
+    position: fixed;
+}
+.section1{
+    width: 50vw;
+    height: 100vh;
+    background-image: url(background.jpg);
+    background-size: cover;
+    padding-left: 100px;
+    
+}
+h1 {
+   
+    padding-top: 200px;
+    color: teal;
+    font-size: 40px;
+}
+.para{
+    
+    padding-top: 60px;
+    color: tan;
+}
+.copy{
+    padding-bottom: 0;
+    color: tomato;
+    margin-top: 25%;
+}
+.section2{
+    width: 50vw;
+    height: 100vh;
+    background-size: cover;
+    padding-left: 250px;
+    padding-top: 50px;
+}
+.heading1{
+    margin-top: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.heading2{
+    margin-top: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.para1{
+    margin-top: 2%;
+}
+input[type="text"],[type="password"]{
+    border: none;
+    margin-top: 5%;
+    width: 250px;
+    height: 30px;
+    
+    
+}
+input[type="text"],[type="password"]:focus{
+    color: lightslategray;
+    outline: none;
+    text-decoration: underline;
+    box-shadow: 5px 5px 5px 5px gray;
+    border-color: #007bff;
+}
+input[type="submit"]{
+    margin-top: 5%; 
+    width: 250px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.click{
+    margin-top: 3%;
+    color: black;
+    cursor: pointer;
+}
