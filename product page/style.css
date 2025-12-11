@@ -2,15 +2,30 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: Calibri;
+}
 main{
     display: flex;
 }
-.section1 img{
+.section1 .image1{
     display: flex;
     width: 40vw;
-    height: 90vh;
+    height: 70vh;
     margin-top: 20px;
     margin-left: 25px;
+}
+.section1 .div1{
+    width: 40vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.section1 img{
+    width: 8vw;
+    height: 10vh;
+    margin-top: 30px;
+    margin-left: 20px;
+    
 }
 .section2 h2{
     margin-left: 30px;
@@ -30,13 +45,15 @@ main{
     margin-top: 12px;
     font-size: 18px;
 }
- .firstImage{
-    height: 100px;
-    width: 100px;
+ .starFonts{
+    color: orange;
+    font-size: 13px;
     margin-left: 30px;
-    margin-top: -30px;
-    font-size: 0.1px;
-}
+ }
+ #id1{
+    color: black;
+    font-size: 13px;
+ }
 .section2 p{
     margin-left: 30px;
 }
@@ -59,15 +76,21 @@ main{
     border: 0.5px solid black;
     border-radius: 3px;
     color: white;
+    margin-left: 5px;
 
 }
 .secondImage{
     height: 30px;
     width: 30px;
-    margin-top: 10px;
+    margin-bottom: -10px;
+    
     
 }
  .thirdImage{
     height: 30px;
     width: 30px;
+    margin-bottom: -10px;
+}
+.div2 i{
+    margin-left: 30px;
 }
