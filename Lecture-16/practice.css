@@ -1,0 +1,41 @@
+.div1{
+    border: 2px solid black;
+    width: 400px;
+    float: left;
+    
+}
+.div2{
+    border: 2px solid tomato;
+    width: 400px;
+    float: left;
+    margin-left: 10px;
+    
+}
+.div3{
+    border: 2px solid greenyellow;
+    width: 400px;
+    float: left;
+    margin-left: 10px;
+    
+}
+.div4{
+    border: 2px solid red;
+    width: 400px;
+    float: left;
+    margin-top: 90px;
+    width: 500px;
+    height: 200px;
+    box-shadow: 10px 10px 50px tan;
+    
+}
+.div5{
+    border: 2px solid peru;
+    width: 400px;
+    float: right;
+    margin-right: 33px;
+    margin-top: 90px;
+    width: 600px;
+    height: 200px;
+    box-shadow: 10px 10px 50px goldenrod;
+    
+}

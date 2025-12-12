@@ -1,0 +1,24 @@
+.section1{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    /* overflow: auto; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow-x: auto; */
+    /* overflow-y: auto; */
+}
+.section2{
+    border: 2px solid blueviolet;
+    height: 300px;
+    width: 300px;
+    /* overflow: auto; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow-x: auto; */
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}

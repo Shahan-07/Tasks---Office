@@ -1,0 +1,12 @@
+.div1{
+    border: 2px solid black;
+    min-height: 20px;
+    max-height: 200px;
+}
+.div2{
+    border: 2px solid blueviolet;
+    margin-top: 100px;
+    min-height: 30px;
+    max-height: 100px;
+}
+

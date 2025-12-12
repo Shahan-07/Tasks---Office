@@ -1,0 +1,17 @@
+.div1{
+    width: 400px;
+    padding: 25px;
+    border: 2px solid black;
+    font-size: 12px;
+}
+.div2{
+    width: 400px;
+    padding: 25px;
+    border: 2px solid black;
+    margin-top: 20px;
+    line-height: 30px;
+    font-family:cursive;
+    font-weight:bolder;
+    font-variant: small-caps;
+}
+

@@ -1,0 +1,6 @@
+.div1{
+    border: 2px solid teal;
+    height: 200px;
+    width: 200px;
+    overflow: auto;
+}

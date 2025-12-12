@@ -1,0 +1,38 @@
+main{
+    display: flex;
+    
+}
+.div1{
+    border: 2px solid black;
+    height: 160px;
+    width: 200px;
+    margin: 50px;
+    padding: 20px;
+    box-shadow: 5px 5px 59px tomato;
+    
+    
+}
+.div2{
+    border: 2px solid black;
+    height: 160px;
+    width: 200px;
+    margin: 50px;
+    padding: 20px;
+    box-shadow: 5px 5px 40px teal inset;
+}
+.div3{
+    border: 2px solid black;
+    height: 160px;
+    width: 200px;
+    margin: 50px;
+    padding: 20px;
+    box-shadow: 5px 5px 40px goldenrod ;
+}
+.div4{
+    border: 2px solid black;
+    height: 160px;
+    width: 200px;
+    margin: 50px;
+    padding: 20px;
+    box-shadow: 5px 5px 40px grey inset;
+}

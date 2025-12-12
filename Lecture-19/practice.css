@@ -1,0 +1,16 @@
+.div1{
+    width: 400px;
+    padding: 20px;
+    border: 2px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* text-align: center; */
+    /* text-align: right; */
+    /* text-align: left; */
+    text-align: justify;
+    /* text-transform: lowercase; */
+    text-transform: uppercase;
+    text-transform: capitalize;
+    text-indent: 20px;   /* only works on the first line of the paragrapgh. it indents the line to inwards the paragrapgh*/
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
