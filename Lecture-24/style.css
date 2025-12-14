@@ -1,0 +1,7 @@
+div{
+    border: 2px solid black;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,14 @@
+.div1{
+    width: 700px;
+    height: 300px;
+    padding: 30px;
+    border: 2px solid black;
+    background: linear-gradient(tomato 20%,tan 50%);
+}
+.div2{
+    width: 700px;
+    height: 300px;
+    padding: 30px;
+    border: 2px solid black;
+    background: radial-gradient(red 10% , yellow 20%, green 40%);
+}

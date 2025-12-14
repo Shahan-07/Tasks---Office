@@ -1,0 +1,13 @@
+img{
+    width: 30%;
+    height: 50vh;
+}
+img[alt]{
+    border: 3px solid red;
+}
+img[title]{
+    border: 3px solid blue;
+}
+a[target]{
+    color: red;
+}

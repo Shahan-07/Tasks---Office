@@ -1,0 +1,20 @@
+.list1 li{
+    color: red;
+}
+.list1 > li{
+    color: green;
+}
+.list1 + p{
+     /* color: blue;   */
+     /* Adjacent siblings selectors  first siblings */
+}
+.list1 ~ p{
+    /* color: yellowgreen; */
+    /* General siblings selector  .... selects all the p which is after the list */
+}
+ul ~ p{
+    color: blue;
+}
+h2 ~ p{
+    color: blueviolet;
+}

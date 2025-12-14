@@ -1,0 +1,17 @@
+.div1{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    background: tan;
+    position: relative;
+    left: 40px;
+}
+.div2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    background: tan;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}

@@ -1,0 +1,17 @@
+h2{
+    /* display: none; */
+}
+ul{
+    border: 2px solid black;
+    /* display: none; */
+    /* visibility: hidden; */
+}
+li{
+    border: 1px solid tomato;
+    display: inline;
+}
+span{
+    border: 1px solid brown;
+    display: block;
+    
+}
