@@ -1,0 +1,136 @@
+body{
+    background-color: #32284680;
+    background-image: url(wp11889717.webp);
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    
+}
+header{
+    display: flex;
+}
+header div{
+    margin-left: 400px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+header div a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+header h1{
+    color: white;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.section1{
+    width: 50%;
+}
+.section1 h1{
+    color: white;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.section1 h2{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    position: relative;
+    top: -30px;
+}
+.section1 p{
+    color: white;
+    margin-left: 20px;
+}
+.section1 button{
+    border-radius: 20px;
+    border: 3px solid white;
+    padding: 5px;
+    width: 140px;
+    margin-left: 20px;
+    height: 40px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.spanSection span{
+    display: inline-block;
+    border-radius: 50%;
+    background-color: black;
+    height: 10px;
+    width: 10px;
+    border: 2px solid white;
+    margin: 2px;
+}
+.spanSection{
+    margin-left: 29px;
+    margin-top: 15px;
+}
+.spanSection .spanwhite{
+    background-color: white;
+}
+
+.sections{
+    display: flex;
+}
+
+.section2{
+    width: 25%;
+    height: 60vh;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5% ;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.section2 h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.section2 .formSection{
+    display: flex;
+    flex-direction: column;
+}
+.formSection label{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.formSection input{
+    border: none;
+}
+.formSection button{
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 60%;
+    height: 40px;
+    font-size: 25px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+input[type="text"],
+input[type="password"]{
+    border-bottom: 2px solid;
+    border-color: gray;
+    margin-left: 80px;
+    width: 190px;
+    outline: none;
+    margin-top: 8px;
+}
+input[type="text"]:hover,
+input[type="password"]:hover{
+    color: lightslategray;
+    outline: none;
+    border-bottom: 2px solid ;
+    border-color: black;
+}
+
+
