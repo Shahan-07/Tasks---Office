@@ -53,6 +53,7 @@ header nav{
     border-radius: 20px;
     color: white;
     margin-top: 15px;
+    cursor: pointer;
     
 }
 
@@ -63,6 +64,7 @@ header nav{
     border: none;
     border-radius: 20px;
     color: white;
+    cursor: pointer;
 }
 .side2 img{
     width: 100%;
@@ -159,6 +161,9 @@ header nav{
     header nav{
         display: none;
     }
+    .section1 .side2 img{
+        display: none;
+    }
     .section1 .section3{
         /* flex-direction: column; */
         text-align: center;
@@ -172,7 +177,8 @@ header nav{
         justify-content: center;
     }
     .iconsList{
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         gap: 10px;
         margin-left: 20px;
     }
