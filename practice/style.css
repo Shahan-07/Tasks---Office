@@ -68,8 +68,6 @@ body{
 .main2 .span2{
     font-size: 13px;
     display: flex; 
-    /* justify-content: space-between; */
-    text-align: center;
     gap: 8px;  
     margin-top: 8px;
 }
@@ -124,59 +122,3 @@ body{
   font-weight: 600;
   cursor: pointer;
 } 
-/* 
-@media (max-width:480px){
-    .container .headingdiv{
-        font-size: 10px;
-    }
-    .container{
-        width: 80%;
-        height: auto;
-        margin-left: 20px;
-    }
-    .span1{
-        display: flex;
-        flex-direction: column;
-        gap: 2px;
-    }
-    .section1 img{
-        height: 140px;
-    }
-    .main2 .span2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 4px;
-    }
-    .para1{
-        font-size: 13px;
-    }
-    .para2 .price{
-        font-size: 15px;
-    }
-    .para2 .delivery{
-        font-size: 15px;
-    }
-    .btn button{
-        width: 80px;
-        font-size: 11px;
-        border: none;
-    }
-}
-
-
-@media (min-width:481px) and (max-width:768px){
-    .container .headingdiv{
-        font-size: 16px;
-    }
-    .container{
-        width: 90%;
-        height: auto;
-        margin-left: 20px;
-    }
-}
-
-@media (min-width:769px) and (max-width:1024px){
-    
-} */
