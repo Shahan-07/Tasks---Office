@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    padding: 15px 3px;
+    height: 250px;
+    width: 1000px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-family: "Roboto";
+}
+.section1 img{
+    height: 200px;
+}
+.section2 h2{
+    font-weight: 400;
+    font-size: 20px;
+}
+.container .span1{
+    margin-left: 10px;
+    height: 20px;
+    width: 50px;
+    background-color: #0068e1;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 2px 0;
+}
+.icons-section{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+.reviews{
+    color: #9a9a96;
+}
+.icons{
+    color: #9bcd32;
+    font-size: 13px;
+}
+.list-section{
+    padding-top: 15px;
+}
+.list-section ul{
+    margin-left: 40px;
+}
+.price-section{
+    display: flex;
+    margin-top: 18px;
+    gap: 10px;
+}
+.price-section .price1{
+    color: #0068e1;
+    font-size: 20px;
+}
+.price-section .price2{
+    color: #9a9a96;
+    text-decoration: line-through;
+    font-size: 14px;
+    padding: 3px 0px;
+}
+button{
+    background-color: #0068e1;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-top: 12px;
+    color: white;
+    font-size: 15px;
+}
+@media (max-width:768px){
+    .container{
+        height: 250px;
+        width: 700px;
+        padding: 15px 6px;
+    }
+    .section2 h2{
+        font-size: 15px;
+    }
+    .section1 img{
+    height: 170px;
+    }
+    .btn{
+        padding: 10px 40px;
+    }
+}
+@media (max-width:425px){
+    .container{
+        height: 200px;
+        width: 340px;
+    }
+    .section2 h2{
+        font-size: 15px;
+    }
+    .section1 img{
+        height: 140px;
+    }
+    .icons-section .reviews{
+        font-size: 10px;
+    }
+    .icons-section .icons{
+        font-size: 10px;
+    }
+    .list-section ul{
+        font-size: 12px;
+    }
+    .price-section .price1{
+        font-size: 14px;
+    }
+    .price-section .price2{
+        font-size: 11px;
+    }
+    .btn{
+        padding: 5px 20px;
+    }
+    .span1{
+        
+    }
+}
