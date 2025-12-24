@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Robotto";
+}
+
+body {
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Contain section */
+.container {
+  width: 280px;
+  height: 500px;
+  background: #f7f7f7;
+  border-radius: 25px;
+  padding: 15px;
+  border: 1px solid gray;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+/* Image */
+.image-box {
+  background: #ddd;
+  border-radius: 20px;
+  margin: 15px 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.image-box img {
+  width: 120px;
+}
+
+/* Content */
+.content {
+  padding: 5px;
+}
+
+.title-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.category {
+  font-size: 12px;
+  color: #777;
+  margin: 5px 0 10px;
+}
+
+/* Sizes */
+.sizes {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.sizes span {
+  padding: 5px 10px;
+  border-radius: 12px;
+  background: #ddd;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.sizes .active {
+  background: #f4b400;
+  color: #fff;
+}
+
+/* Description */
+.description {
+  font-size: 12px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Button */
+.cart-btn {
+  position: relative;
+  left: 50px;
+  top: 25px;
+  padding: 10px 40px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.footer footer{
+    color: black;
+    position: relative;
+    top: 50px;
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.footer footer{
+    display: flex;
+    gap: 30px;
+}
+.footer footer i{
+    cursor: pointer;
+    color: #777;
+}               

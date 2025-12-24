@@ -17,7 +17,7 @@ main{
     flex-direction: column;
     justify-content: flex-start;
     width: 250px;
-    height: 480px;
+    height: 500px;
     border: 1px solid black;
     border-radius: 30px;
     padding: 0 10px;
@@ -41,7 +41,7 @@ main{
     background-color: white;
     position: relative;
     margin-left: -11px;
-    top: 65px;
+    top: 52px;
     border-top-right-radius: 2px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -94,7 +94,7 @@ main{
 .container .footer footer{
     color: white;
     position: relative;
-    top: 80px;
+    top: 70px;
 }
 .container .footer{
     display: flex;
@@ -103,4 +103,23 @@ main{
 .container .footer footer{
     display: flex;
     gap: 30px;
+}
+.container .shopping-cart{
+    background-color: gray;
+    border-radius: 20px;
+    position: relative;
+     top: 50px;
+     left: 20px;
+     width: 210px;
+     display: flex;
+     justify-content: center;
+     gap: 10px;
+     padding: 10px 0;
+     color: white;
+}
+.container .shopping-cart p{
+    font-size: 14px;
+}
+.container .shopping-cart i{
+    font-size: 15px;
 }
